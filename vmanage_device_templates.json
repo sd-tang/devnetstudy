@@ -1,0 +1,123 @@
+{
+    "header": {
+        "generatedOn": 1611207797025,
+        "viewKeys": {
+            "uniqueKey": [],
+            "preferenceKey": "grid-TemplateMasterWithFeature"
+        },
+        "columns": [
+            {
+                "title": "Name",
+                "property": "templateName",
+                "hideable": false,
+                "dataType": "string"
+            },
+            {
+                "title": "Description",
+                "property": "templateDescription",
+                "dataType": "string"
+            },
+            {
+                "title": "Type",
+                "property": "configType",
+                "display": "keyvalue",
+                "keyvalueProperty": "configType",
+                "hideable": false,
+                "keyvalue": [
+                    {
+                        "key": "file",
+                        "value": "CLI"
+                    },
+                    {
+                        "key": "template",
+                        "value": "Feature"
+                    }
+                ],
+                "dataType": "string"
+            },
+            {
+                "title": "Device Model",
+                "property": "deviceType",
+                "display": "keyvalue",
+                "keyvalueProperty": "deviceType",
+                "hideable": false,
+                "minWidth": 100,
+                "dataType": "string"
+            },
+            {
+                "title": "Feature Templates",
+                "property": "templateAttached",
+                "dataType": "string"
+            },
+            {
+                "title": "Devices Attached",
+                "property": "devicesAttached",
+                "display": "deviceLinkCell",
+                "dataType": "number"
+            },
+            {
+                "title": "Updated By",
+                "property": "lastUpdatedBy",
+                "dataType": "string"
+            },
+            {
+                "title": "Last Updated",
+                "property": "lastUpdatedOn",
+                "displayFormat": "DD MMM YYYY h:mm:ss A z",
+                "inputFormat": "unix-time",
+                "dataType": "date"
+            }
+        ],
+        "fields": [
+            {
+                "property": "templateName",
+                "dataType": "string"
+            },
+            {
+                "property": "templateDescription",
+                "dataType": "string"
+            },
+            {
+                "property": "configType",
+                "dataType": "string",
+                "display": "keyvalue"
+            },
+            {
+                "property": "deviceType",
+                "dataType": "string",
+                "display": "keyvalue"
+            },
+            {
+                "property": "templateAttached",
+                "dataType": "string"
+            },
+            {
+                "property": "devicesAttached",
+                "dataType": "number",
+                "display": "deviceLinkCell"
+            },
+            {
+                "property": "lastUpdatedBy",
+                "dataType": "string"
+            },
+            {
+                "property": "lastUpdatedOn",
+                "dataType": "date"
+            }
+        ]
+    },
+    "data": [
+        {
+            "deviceType": "vedge-cloud",
+            "lastUpdatedBy": "admin",
+            "factoryDefault": false,
+            "templateName": "VEDGE_BASIC_TEMPLATE",
+            "devicesAttached": 0,
+            "templateDescription": "VEDGE BASIC TEMPLATE01",
+            "lastUpdatedOn": 1538865915509,
+            "configType": "template",
+            "templateId": "72babaf2-68b6-4176-92d5-fa8de58e19d8",
+            "templateAttached": 15
+        }
+    ]
+}
